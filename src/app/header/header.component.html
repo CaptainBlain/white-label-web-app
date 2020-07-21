@@ -1,15 +1,24 @@
 <!--Adds the icons to the right hand side of the navbar -->
 <!-- remove mr-auto to put links on right hand side-->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container">
-    <a class="navbar-brand" href="/home">Name</a>
-    <ul class="nav navbar-nav mr-auto" >
-      <li class="nav-item" routerLinkActive="active"><a class="nav-link" routerLink="/home">Home</a></li>
-      <li class="nav-item"><a class="nav-link" routerLink="/home">Home</a></li>
-      <li class="nav-item"><a class="nav-link" routerLink="/services">Services</a></li>
-      <li class="nav-item"><a class="nav-link" routerLink="/work">Our Work</a></li>
-      <li class="nav-item"><a class="nav-link" routerLink="/about">About</a></li>
-      <li class="nav-item"><a class="nav-link" routerLink="/contact">Contact</a></li>
+<nav class="navbar navbar-expand-lg navbar-light bg-custom">
+  <a class="navbar-brand" href="#"><img src="../../assets/Thompsons-logo.png" class="d-inline-block align-content-center" alt="" style="height: 100px"></a>
+  <!--  <a class="navbar-brand" href="#"><img src="../../assets/ellis-logo.svg" class="d-inline-block align-content-center" alt=""></a>-->
+  <!--  <h4 style="padding-left: -10px; padding-top: 10px; text-align: left">Bathrooms & Kitchens</h4>-->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
     </ul>
+    <form class="form-inline my-0 my-lg-0 m-0">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item" routerLinkActive="active"><a class="nav-link" routerLink="/home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="/services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="/work">Work</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="/about">About</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="/contact">Contact</a></li>
+      </ul>
+    </form>
   </div>
 </nav>

@@ -1,13 +1,13 @@
 import {File} from '../file/file.model';
 import {State} from '../enum/state';
-import {Category} from '../category/category.model';
+import {Service} from '../service/service.model';
 
 
 export class Job {
   public id: string;
   public style: string;
   public state: State;
-  public category: Category;
+  public service: Service;
   public images: File[]
   public beforeImage: File;
   public afterImage: File;
@@ -19,7 +19,7 @@ export class Job {
   constructor(id: string,
               style: string,
               state: State,
-              category: Category,
+              service: Service,
               images: File[],
               beforeImage: File,
               afterImage: File,
@@ -31,7 +31,7 @@ export class Job {
     this.id = id;
     this.style = style;
     this.state = state;
-    this.category = category;
+    this.service = service;
     this.images = images;
     this.beforeImage = beforeImage;
     this.afterImage = afterImage;

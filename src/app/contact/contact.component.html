@@ -1,1 +1,53 @@
-<p>contact works!</p>
+<!--<app-page-header [title]="'Contact Us'" [imageAssetUrl]="'../assets/contact.png'"></app-page-header>-->
+<br>
+<br>
+<p> If you’d like to get in contact with us for any enquiry, please feel free to use the contact form below, give us a call or send us an email directly.</p>
+<br>
+<br>
+<div class="row">
+  <div class="col-lg-6">
+    <h2><span style="color: #318DB9">Telephone: </span></h2>
+  </div>
+  <div class="col-lg-6">
+    <h2><span style="color: #318DB9">Email: </span></h2>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<div class="wrap" style="background-color: #E4E4E4; padding: 50px; margin-bottom: 150px">
+  <div class="row justify-content-center">
+    <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 col align-self-center">
+      <form (ngSubmit)="onSubmit()" #f="ngForm">
+        <div id="user-data" ngModelGroup="userData">
+
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <input type="text" id="name" class="form-control" ngModel name="name" placeholder="name" required >
+            </div>
+            <div class="form-group col-md-6">
+              <input type="email" id="email" class="form-control" ngModel placeholder="email" name="email" required email #email="ngModel">
+              <span class="help-block" *ngIf="!email.valid && email.touched">Please enter a valid email!</span>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <input type="text" id="subject" class="form-control" ngModel name="subject" placeholder="subject" >
+            </div>
+            <div class="form-group col-md-6">
+              <input type="text" id="phone" class="form-control" ngModel placeholder="telephone" name="phone">
+            </div>
+          </div>
+          <div class="form-group">
+            <textarea id="content" class="form-control" ngModel name="content" rows="6"  placeholder="How can we help?"></textarea>
+          </div>
+          <button
+            class="btn btn-primary"
+            type="submit"
+            style="margin-right: 15px; width: 100px;"
+            [disabled]="!f.valid">Send</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

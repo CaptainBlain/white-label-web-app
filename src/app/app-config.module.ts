@@ -5,10 +5,12 @@ export let APP_CONFIG = new InjectionToken<AppConfig>('app.config');
 
 export class AppConfig {
   apiEndpoint: string;
+  businessId: string;
 }
 
 export const APP_DI_CONFIG: AppConfig = {
-  apiEndpoint: environment.apiEndpoint
+  apiEndpoint: environment.apiEndpoint,
+  businessId: environment.businessId
 };
 
 @NgModule({
@@ -19,3 +21,4 @@ export const APP_DI_CONFIG: AppConfig = {
 })
 
 export class AppConfigModule { }
+
