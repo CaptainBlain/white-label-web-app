@@ -1,5 +1,3 @@
-This project is a white label project that I used for teaching myself Angular.
-
 Last year I had a close friend in need of a website but didn't have the cash to pay somebody to develop it for him.
 
 I decided this was a great opportunity to learn some skills lacking in my repertoire. I'd never previously learnt any web development, I'd gone straight to mobile from university and I was eager to get going.
