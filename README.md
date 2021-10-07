@@ -1,27 +1,15 @@
-# WhiteLabelWebApp
+This project is a white label project that I used for teaching myself Angular.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
+Last year I had a close friend in need of a website but didn't have the cash to pay somebody to develop it for him.
 
-## Development server
+I decided this was a great opportunity to learn some skills lacking in my repertoire. I'd never previously learnt any web development, I'd gone straight to mobile from university and I was eager to get going.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+I started by doing some research into the many, many ways current technology allows us to build websites now, the company I was working for at the time were heavily invested in Angular so I decided to teach myself the [MEAN](https://en.wikipedia.org/wiki/MEAN_(solution_stack)) stack.
 
-## Code scaffolding
+I learned a lot on the way, had a lot of fun teaching myself in my spare time and in the end my friend got a website. Check it out here: 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+[Streathers Carpentry](https://www.streatherscarpentry.co.uk/home)
 
-## Build
+I enjoyed developing it so much I ended up creating my own website:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+[My Web Builder](https://www.mywebbuilders.co.uk/home)
